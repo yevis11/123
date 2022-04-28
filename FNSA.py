@@ -11,7 +11,7 @@ import allure
  #   base_url = "https://corona.lmao.ninja/v2/countries/" + test_input + "?yesterday=true&strict=true"
   #  r = requests.get(base_url)
    # print("\n ------json--------")
-   # print(pprint.pprint(r.json()))
+   # print(pprint.pprint(r.json())) #sss
    # item = r.json()
    # assert r.status_code == 200
 
