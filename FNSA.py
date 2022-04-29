@@ -52,3 +52,12 @@ def test_fail():
     """this test failed """
     assert False
 
+@allure.story("test_story 1 ")
+@allure.severity("Major")
+@allure.testcase("testrail.com")
+@allure.issue("Jira task 1")
+def test_succes():
+    """this test successed """
+    time.sleep(4)
+    assert True
+
