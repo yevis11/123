@@ -45,3 +45,10 @@ def test_skip():
 def test_broken():
     raise Exception('broken')
 
+@allure.severity("Trivial")
+@allure.testcase("testrail.com")
+@allure.issue("Jira task 2")
+def test_fail():
+    """this test failed """
+    assert False
+
